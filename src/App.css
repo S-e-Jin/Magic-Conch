@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  background: rgba(88, 97, 130, 0.433);
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url('/public/images/background1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.backGround{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(245, 245, 220, 0.222);
+}
+.conchWrap{
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -35%);
+  width: 280px;
+}
+.conch{
+  width: 100%;
+  filter: drop-shadow(4px 4px 4px #ffffff);
+}
+.answerWrap{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  text-align: center;
+}
+.answer{
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-shadow: -1px 0px #fff, 0px 1px #fff, 1px 0px #fff, 0px -1px #fff;
+}
